@@ -33,14 +33,48 @@ Welcome to SeamlessEscapesBlazor! This project is a web application designed to 
    git clone https://github.com/yourusername/SeamlessEscapesBlazor.git
    cd SeamlessEscapesBlazor
    
-#2. **Configure the Database Connection**
+2. **Configure the Database Connection**
 
-Update the `appsettings.json` file with your SQL Server connection string:
+   Update the `appsettings.json` file with your SQL Server connection string:
+   
+   ```json
+   {
+     "ConnectionStrings": {
+       "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=seamlessescapes;Trusted_Connection=True;TrustServerCertificate=True;"
+     }
+   }
 
-```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=seamlessescapes;Trusted_Connection=True;TrustServerCertificate=True;"
-  }
-}
+3. **Install dependencies:**
+
+    ```bash
+    dotnet restore
+
+4. **Run database migrations:**
+
+   ```bash
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
+
+5. **Run the application:**
+
+   ```bash
+   dotnet run
+
+## Usage
+
+- **Register a new user:** Navigate to `/Register` and fill out the registration form.
+- **Log in:** Navigate to `/Login` and enter your credentials.
+- **Plan a trip:** Go to `/Home`, enter your trip details, and submit the form.
+- **View flights:** After submitting the trip details, view available flights on the `/Flights` page.
+- **Discover hotels and activities:** Similarly, view hotel information and activities for the selected destination.
+
+## Team Members
+
+- **Rahat Bhatia:** Junior CS, Frontend Developer ([GitHub](https://github.com/rahat15))
+- **Shahzeb Khan:** Senior CS, Backend Developer ([GitHub](https://github.com/MuhammadShahzebKhan))
+- **Andrea Diaz:** Senior CS, Full Stack Developer ([GitHub](https://github.com/theandreahh))
+- **Nathan Luiten:** Senior CS, DevOps Engineer ([GitHub](https://github.com/nluiten))
+- **Parbhat Rai:** Senior CS, UX/UI Designer ([GitHub](https://github.com/prai42))
+
+
 
