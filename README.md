@@ -32,3 +32,15 @@ Welcome to SeamlessEscapesBlazor! This project is a web application designed to 
    ```bash
    git clone https://github.com/yourusername/SeamlessEscapesBlazor.git
    cd SeamlessEscapesBlazor
+   
+#2. **Configure the Database Connection**
+
+Update the `appsettings.json` file with your SQL Server connection string:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=seamlessescapes;Trusted_Connection=True;TrustServerCertificate=True;"
+  }
+}
+
