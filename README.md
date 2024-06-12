@@ -70,11 +70,11 @@ Welcome to SeamlessEscapesBlazor! This project is a web application designed to 
 
 ## Team Members
 
-- **Rahat Bhatia:** Junior CS, Frontend Developer ([GitHub](https://github.com/rahat15))
-- **Shahzeb Khan:** Senior CS, Backend Developer ([GitHub](https://github.com/MuhammadShahzebKhan))
-- **Andrea Diaz:** Senior CS, Full Stack Developer ([GitHub](https://github.com/theandreahh))
-- **Nathan Luiten:** Senior CS, DevOps Engineer ([GitHub](https://github.com/nluiten))
-- **Parbhat Rai:** Senior CS, UX/UI Designer ([GitHub](https://github.com/prai42))
+- **Rahat Bhatia:** Junior Comp. Sci. ([GitHub](https://github.com/rahat15))
+- **Shahzeb Khan:** Senior Comp.Sci. ([GitHub](https://github.com/MuhammadShahzebKhan))
+- **Andrea Diaz:** Senior Comp. Sci. ([GitHub](https://github.com/theandreahh))
+- **Nathan Luiten:** Senior Comp. Sci. ([GitHub](https://github.com/nluiten))
+- **Parbhat Rai:** Senior Comp. Sci. ([GitHub](https://github.com/prai42))
 
 
 
